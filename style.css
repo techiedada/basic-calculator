@@ -1,0 +1,97 @@
+/* Google font family CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* Universal selector */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: #F5FFFA; */
+    background-color: #f8f7fa;
+}
+.main-section{
+    width: 444px;
+    height: 370px;
+    border: 2px solid gray;
+    margin: 150px auto;
+    /* background-color: #B3B3B3; */
+    background-color: #d3d3d6;
+    border-radius: 2px;
+}
+#para{
+    text-align: center;
+    font-weight: 600;
+    padding: 20px;
+    font-size: 26px;
+    font-family: var(--tg-heading-font-family);
+}
+.sub-section, label{
+    padding-left: 10px;
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+}
+input{
+    width: 270px;
+    height: 35px;
+    margin: 10px 15px;
+    padding-left: 8px;
+    /* border-radius: 2px; */
+}
+#addition{
+    font-size: 14px;
+    margin-left: 45px;
+    margin-top: 20px;
+    padding: 6px 40px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+#subtraction{
+    font-size: 14px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 6px 21px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+#multiplication{
+    font-size: 14px;
+    margin-left: 45px;
+    margin-top: 20px;
+    padding: 6px 16.6px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+#division{
+    font-size: 14px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 6px 40px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+#addition:hover{
+    cursor: pointer;
+    color: orangered;
+}
+#subtraction:hover{
+    cursor: pointer;
+    color: orangered;
+}
+#multiplication:hover{
+    cursor: pointer;
+    color: orangered;
+}
+#division:hover{
+    cursor: pointer;
+    color: orangered;
+}
