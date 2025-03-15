@@ -1,0 +1,210 @@
+/* Google Font Family CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* Universal Selector */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(resources/symbol-time-cut-out-ideas-doodle.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+}
+#name{
+    text-align: center;
+    font-family: var(--tg-heading-font-family);
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight:700;
+    color: black;
+}
+.main-section{
+    border: 2px solid gray;
+    width: 366px;
+    height: 440px;
+    margin: 30px auto;
+    background-color: rgb(192, 188, 188);
+    border-radius: 5px;
+}
+#input{
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 320px;
+    height: 50px;
+    border-radius: 2px;
+    padding: 10px;
+    text-align: right;
+    font-size: larger;
+    background-color: whitesmoke;
+}
+hr{
+    margin-bottom: 15px;
+}
+#clear{
+    padding: 10px 11.2px;
+    margin: 8px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    
+}
+#back{
+    padding: 10px 16.5px;
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+#module{
+    padding: 10px 29px;
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+#on{
+    padding: 10px 24px;
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+#seven{
+    padding: 10px 30px;
+    margin: 8px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+#eight{
+    padding: 10px 30px;
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+#nine{
+    padding: 10px 30px;
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+#division{
+    padding: 10px 30px;
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+#four{
+    padding: 10px 30px;
+    margin: 8px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+#five{
+    padding: 10px 30px;
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+#six{
+    padding: 10px 30px;
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+#multiplication{
+    padding: 10px 30px;
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+#one{
+    padding: 10px 30px;
+    margin: 8px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+#two{
+    padding: 10px 30px;
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+#three{
+    padding: 10px 30px;
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+#subtraction{
+    padding: 10px 31px;
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+#zero{
+    padding: 10px 30px;
+    margin: 8px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+#dot{
+    padding: 10px 32px;
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+    /* font-size: 16px; */
+}
+#equal{
+    padding: 10px 30px;
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+#plus{
+    padding: 10px 29px;
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-family: "roboto", sans-serif;
+}
